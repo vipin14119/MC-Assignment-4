@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.app.vipin.infogetter.MainActivity">
+    <item
+        android:id="@+id/fetch_button"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="FETCH" />
+</menu>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Info Getter</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_text">FETCH</string>
+    <string name="dummyText">PRESS FETCH FIRST</string>
+    <string name="about_us_heading">About Us</string>
+
+</resources>
