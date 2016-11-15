@@ -98,7 +98,6 @@ public class MainActivity extends AppCompatActivity {
             try {
                 Document document = Jsoup.connect(url).get();
                 Elements elements = document.select("#node-10 .content p");
-                Log.d("MSG", "=============="+elements.size());
                 String para1 = elements.get(2).text();
                 String para2 = elements.get(3).text();
                 Log.d("MG","==================="+para1);
