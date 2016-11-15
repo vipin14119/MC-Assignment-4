@@ -28,7 +28,6 @@ public class MainActivity extends AppCompatActivity {
     static String htmlData = new String();
     private static final String SAVED_CONTENT = "Saved Content";
     private TextView buffer;
-    private Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,17 +37,10 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         buffer = (TextView)findViewById(R.id.buffer);
-        button = (Button)findViewById(R.id.button);
         if (savedInstanceState != null){
             htmlData = savedInstanceState.getString(SAVED_CONTENT);
             buffer.setText(htmlData);
-            button.setVisibility(View.INVISIBLE);
         }
-    }
-
-    public void getData(View view){
-        new MyTask().execute();
-        button.setVisibility(View.INVISIBLE);
     }
 
     @Override
